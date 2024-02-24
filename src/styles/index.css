@@ -1,12 +1,59 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.caja-palo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.palo {
+  background-color: black;
+  height: 10vh;
+  width: 3vw;
+}
+.caja {
+  background-color: black;
+  height: 85vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.light {
+  margin: auto;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
 
-/* 
+.rojo {
+  height: 120px;
+  width: 120px;
+  background: rgb(255, 0, 0);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.rojo-on {
+  box-shadow: 5px 3px 50px 56px rgb(255, 0, 0, 0.5);
+}
 
-*/
+.amarillo {
+  height: 120px;
+  width: 120px;
+  background: rgb(255, 255, 0);
+}
+
+.amarillo-on {
+  box-shadow: 5px 3px 50px 56px rgb(255, 255, 0, 0.5);
+}
+
+.verde {
+  height: 120px;
+  width: 120px;
+  background: rgb(0, 128, 0);
+}
+
+.verde-on {
+  box-shadow: 5px 3px 50px 56px rgb(0, 128, 0, 0.5);
+}
